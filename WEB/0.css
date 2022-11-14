@@ -1,0 +1,20 @@
+.main{
+    margin-top: 10%;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+button{
+    border: #ffffff 2px solid;
+    background-color: black;
+    border-radius: 8px;
+    padding: 12px 35px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+  }
