@@ -1,0 +1,126 @@
+.heading{
+    color: rgb(94, 94, 108);
+}
+
+    
+
+.center-in-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    height: 66px;
+    width: 100%;
+    line-height: 80px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+.nav li{
+    float: left;
+    width: 210px;
+    text-align: center;
+    position: auto;
+}
+
+.ul_top{
+    list-style: none;
+    position: absolute;
+    top: auto;
+    right:290px;
+}
+
+.nav a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    line-height: 35px;
+}
+
+.nav a:hover{
+    color: crimson;
+}
+
+.date{
+    color: rgb(196, 196, 196);
+}
+
+img{ 
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ video{ 
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#big{
+    font-size: large;
+}
+
+#extra{
+    font-size: xx-large;
+    margin-top: 1%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(243, 243, 243);
+    margin-top: 100px;
+}
+
+#arch{
+    background-color: antiquewhite;
+    width: 10%;
+}
+
+#title{
+    position: calc(left);
+}
+
+#textblock{
+    background-color: rgb(127, 242, 255);
+    text-align: center;
+    margin: auto;
+    width: 888px;
+}
+
+#textblock:hover{
+    background-color: black;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+image{ 
+    display: block;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.5;
+animation-name: bounce;
+animation-duration: 5s;
+position: absolute;
+}
+
+#image:hover{
+    opacity: 1.0;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@keyframes bounce{
+    0%{
+        top:0px
+    }
+    100%{
+        top:280px
+    }
+}
+
